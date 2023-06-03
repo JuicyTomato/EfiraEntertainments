@@ -158,6 +158,20 @@ body {
   border:none;
 }
 
+
+/*Rende bottone trasparente*/
+.avatar_button {
+  width: 30px;
+  object-fit: contain;
+  background:transparent;
+  border:none; 
+}
+
+.avatar_button:hover {
+  transform: scale(1.09);
+  cursor: pointer;
+}
+
 /* nav */
 .nav__logo {
   width: 80px;
